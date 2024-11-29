@@ -1,79 +1,53 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Test Task
 
-# Getting Started
+This is a test task, created to provide a demo.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Note:
 
-## Step 1: Start the Metro Server
+1: Node version used : 18.17.0, Pod version used : 1.14.3
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Technologies used
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- React Native
+- Redux-Toolkit
+- Typescript
 
-```bash
-# using npm
-npm start
+### How to run the app
 
-# OR using Yarn
-yarn start
-```
+- Run these Commands before installing app:
 
-## Step 2: Start your Application
+#### With Yarn:
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+`yarn && cd ios && pod install && cd ..`
 
-### For Android
+#### With npm:
 
-```bash
-# using npm
-npm run android
+`npm i && cd ios && pod install && cd ..`
 
-# OR using Yarn
-yarn android
-```
+- Installation commands:
 
-### For iOS
+### For android:
 
-```bash
-# using npm
-npm run ios
+#### With Yarn:
 
-# OR using Yarn
-yarn ios
-```
+`yarn android`
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+#### With npm:
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+`npm run android`
 
-## Step 3: Modifying your App
+### For ios:
 
-Now that you have successfully run the app, let's modify it.
+#### With Yarn:
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+`yarn ios`
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+#### With npm:
 
-## Congratulations! :tada:
+`npm run ios`
 
-You've successfully run and modified your React Native App. :partying_face:
+If metro server is not started, please run `npx react-native start`
 
-### Now what?
+#### No additional steps for API setup!
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+#### Now you are all set!
